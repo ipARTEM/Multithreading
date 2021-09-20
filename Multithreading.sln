@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading", "Multithreading\Multithreading.csproj", "{33C34B4F-A607-46E4-BAC3-DC541F7B75B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT001", "MT001\MT001.csproj", "{371D71E8-090B-4A90-9E67-88118A1C9B78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT001", "MT001\MT001.csproj", "{371D71E8-090B-4A90-9E67-88118A1C9B78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT002", "MT002\MT002.csproj", "{3EF3756C-C172-46A5-B518-6635892DBFF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT002", "MT002\MT002.csproj", "{3EF3756C-C172-46A5-B518-6635892DBFF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParallelLibrary", "TaskParallelLibrary\TaskParallelLibrary.csproj", "{716D0E20-0EB5-4C2B-BEFD-5392BE38DEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskParallelLibrary", "TaskParallelLibrary\TaskParallelLibrary.csproj", "{716D0E20-0EB5-4C2B-BEFD-5392BE38DEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL002", "TPL002\TPL002.csproj", "{B7AD645F-45BE-4182-9D79-CBAA00A552C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPL002", "TPL002\TPL002.csproj", "{B7AD645F-45BE-4182-9D79-CBAA00A552C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL003", "TPL003\TPL003.csproj", "{7D6BBAFA-5529-4DF9-93E3-BDFF69C967C2}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL005", "TPL005\TPL005.csproj", "{06E72EBA-C5BF-4FEE-9E51-FD8971DF159E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{24B109BB-4E87-4E42-9534-820AD69A1EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMultiThreadTest", "WinFormsMultiThreadTest\WinFormsMultiThreadTest.csproj", "{11DCF8B0-22A8-4284-85DA-E64FC7FFB9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSynchronizationContext", "WinFormsSynchronizationContext\WinFormsSynchronizationContext.csproj", "{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{24B109BB-4E87-4E42-9534-820AD69A1EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24B109BB-4E87-4E42-9534-820AD69A1EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24B109BB-4E87-4E42-9534-820AD69A1EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DCF8B0-22A8-4284-85DA-E64FC7FFB9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DCF8B0-22A8-4284-85DA-E64FC7FFB9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DCF8B0-22A8-4284-85DA-E64FC7FFB9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DCF8B0-22A8-4284-85DA-E64FC7FFB9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
