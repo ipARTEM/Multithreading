@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMultiThreadTest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSynchronizationContext", "WinFormsSynchronizationContext\WinFormsSynchronizationContext.csproj", "{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolCons", "ThreadPoolCons\ThreadPoolCons.csproj", "{2DCE87BB-9D07-488A-8B44-58091F45DFD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD64DE17-13F2-48AA-B599-B8D4A2EFC02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCE87BB-9D07-488A-8B44-58091F45DFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCE87BB-9D07-488A-8B44-58091F45DFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCE87BB-9D07-488A-8B44-58091F45DFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCE87BB-9D07-488A-8B44-58091F45DFD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
